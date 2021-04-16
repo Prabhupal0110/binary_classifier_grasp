@@ -27,6 +27,9 @@ Successful
 Unsuccessful
 
 The sample size for both class was increased to 1000 using below augmentation function:
+
+![image](https://user-images.githubusercontent.com/70087843/114982889-37287200-9e4d-11eb-985e-f0c60449c859.png)
+
  
 
 
