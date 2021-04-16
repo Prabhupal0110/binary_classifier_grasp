@@ -16,7 +16,9 @@ Binary Image Classifier Using Pytorch for Examining Robotic Grasp Success
 ## 2.	 Data Description
 Images for each class (Successful and Unsuccessful Grasp) were extracted from videos of an Allegro robotic hand trying to grasp an object. These were used to train this classifier.
 Data samples
- 
+
+![image](https://user-images.githubusercontent.com/70087843/114982614-e87ad800-9e4c-11eb-9d35-ef937b81bbcb.png)
+
 Successful
 
  
