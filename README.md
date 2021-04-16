@@ -1,4 +1,4 @@
-# binary_classifier_grasp
+# Binary Image Classifier Using Pytorch for Examining Robotic Grasp Success
 Binary Image Classifier Using Pytorch for Examining Robotic Grasp Success
 ## 1.	Model description
 
