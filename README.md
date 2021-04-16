@@ -51,55 +51,8 @@ The sample size for both class was increased to 1000 using below augmentation fu
 •	After each epoch class accuracy was obtained using the same images again (2000)
 •	Test accuracy was obtained after every second epoch using 28 (Not Successful: 13 and Successful: 15) new images which were not used in the training and validation.
 •	The model was trained for 10 epochs and following results were obtained:
-Loss	Validation Accuracy	Testing Accuracy
-Epoch: 1 Loss:  123.70484164357185
-Epoch: 2 Loss:  61.192153841257095
-Epoch: 3 Loss: 26.804708188399673
-Epoch: 4 Loss: 11.293394926236942
-Epoch: 5 Loss: 4.254946916596964
-Epoch: 6 Loss: 1.8401405285694636
-Epoch: 7 Loss: 1.6579175041406415
-Epoch: 8 Loss: 0.9414917040267028
-Epoch: 9 Loss: 0.6904916932107881
-Epoch: 10 Loss: 0.9886632559646387	After 2 Epochs:
-Accuracy of Not_Success : 100 %
-Accuracy of Success: 70 %
 
-After 4 Epochs:
-Accuracy of Not_Success: 98 %
-Accuracy of Success: 96 %
-
-After 6 Epochs:
-Accuracy of Not_Success: 93 %
-Accuracy of Success: 100 %
-
-After 8 Epochs:
-Accuracy of Not_Success: 100 %
-Accuracy of Success: 100 %
-
-After 10 Epochs:
-Accuracy of Not_Success: 98 %
-Accuracy of Success: 100 %
-
-	After 2 Epochs:
-Not Success:  13/13 = 1
-Success : 13/15 = 0.866
-
-After 4 Epochs:
-Not Success:  11/13 = 0.846
-Success : 15/15 = 1
-
-After 6 Epochs:
-Not Success:  11/13 = 0.846
-Success : 15/15 = 1
-
-After 8 Epochs:
-Not Success:  12/13 = 0.92
-Success : 15/15 = 1
-
-After 10 Epochs:
-Not Success:  12/13 = 0.92
-Success : 15/15 = 1
+![image](https://user-images.githubusercontent.com/70087843/114981832-d3ea1000-9e4b-11eb-9cea-37554884e576.png)
 
 3.	Conclusion
 Though model started to have a good validation and test accuracy after 2nd epoch, but it was trained till 10th epoch. Also to keep monitor if model is being overfitted, after every 2nd epoch it was tested with random images which were not used for the training and accordingly test accuracy was calculated.
