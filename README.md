@@ -1,28 +1,8 @@
 # binary_classifier_grasp
 Binary Image Classifier Using Pytorch for Examining Robotic Grasp Success
 ## 1.	Model description
-Net(
-  (block1): Sequential(
-    (0): Conv2d(3, 256, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
-    (1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-    (2): ReLU()
-    (3): Dropout2d(p=0.1)
-  )
-  (block2): Sequential(
-    (0): Conv2d(256, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
-    (1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-    (2): ReLU()
-    (3): Dropout2d(p=0.1)
-  )
-  (block3): Sequential(
-    (0): Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
-    (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-    (2): ReLU()
-    (3): Dropout2d(p=0.1)
-  )
-  (lastcnn): Conv2d(64, 2, kernel_size=(56, 56), stride=(1, 1))
-  (maxpool): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
-)
+
+![image](https://user-images.githubusercontent.com/70087843/114982429-ace00e00-9e4c-11eb-99b9-8a3d2c17107e.png)
 
 
 
