@@ -33,7 +33,7 @@ The sample size for both class was increased to 1000 using below augmentation fu
  
 
 
-3. Training reports
+## 3. Training reports
 •	2000 images were used to train the model.
 •	After each epoch class accuracy was obtained using the same images again (2000)
 •	Test accuracy was obtained after every second epoch using 28 (Not Successful: 13 and Successful: 15) new images which were not used in the training and validation.
@@ -41,7 +41,7 @@ The sample size for both class was increased to 1000 using below augmentation fu
 
 ![image](https://user-images.githubusercontent.com/70087843/114981832-d3ea1000-9e4b-11eb-9cea-37554884e576.png)
 
-3.	Conclusion
+## 4.	Conclusion
 Though model started to have a good validation and test accuracy after 2nd epoch, but it was trained till 10th epoch. Also to keep monitor if model is being overfitted, after every 2nd epoch it was tested with random images which were not used for the training and accordingly test accuracy was calculated.
  
 ![image](https://user-images.githubusercontent.com/70087843/114983000-545d4080-9e4d-11eb-97f9-21043cd84b7d.png)
