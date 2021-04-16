@@ -35,8 +35,11 @@ The sample size for both class was increased to 1000 using below augmentation fu
 
 ## 3. Training reports
 •	2000 images were used to train the model.
-•	After each epoch class accuracy was obtained using the same images again (2000)
+
+•	After each epoch class accuracy was obtained using the same images again (2000).
+
 •	Test accuracy was obtained after every second epoch using 28 (Not Successful: 13 and Successful: 15) new images which were not used in the training and validation.
+
 •	The model was trained for 10 epochs and following results were obtained:
 
 ![image](https://user-images.githubusercontent.com/70087843/114981832-d3ea1000-9e4b-11eb-9cea-37554884e576.png)
@@ -73,6 +76,7 @@ https://drive.google.com/file/d/1-6P8prjIuyHBWPg7tk5WwNnZxBbtoNSv/view?usp=shari
 
 After 8 epochs:
 https://drive.google.com/file/d/1-6mVbQldtyca2DDEG9fhbFO1m5Q_hXG7/view?usp=sharing
+
 After 10 epochs:
 https://drive.google.com/file/d/1-7XCkNyvtQA4MQ_UCatlkZmqhTRbE1aB/view?usp=sharing
 
